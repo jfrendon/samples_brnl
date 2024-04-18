@@ -12,7 +12,7 @@ fhorizon = 12;
 maxEpochs =  4000;
 trainingSize = 3360; %same as in the script to generate the replications.
 
-y_series = dlmread('d:\juan\cityUniversity\research_project\sources\phdProject\structCmbModels\data\TayloretalRiodataLoadOnly_corrected2.txt');
+y_series = dlmread('TayloretalRiodataLoadOnly_corrected2.txt');
 a = 24;
 b = 168;
 yf = y_series ...
