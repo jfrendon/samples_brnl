@@ -174,7 +174,7 @@ end
 function r = lossFcnOptim(w, m, x, y)
 yEst = evaluateFromOptim(w, m, x, y);
 r = multiSeriesMse(y, yEst, 1); %TODO: change loss function.
-fprintf('----------Check loss function... Corresponds with the nn loss fcn?');
+
 end
 
 
